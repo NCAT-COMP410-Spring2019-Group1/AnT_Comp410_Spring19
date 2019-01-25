@@ -126,6 +126,9 @@ def tc_dna_intent_api_vi_topology_physical_topology():
     else:
         pp.pprint(response.json())
 
+    # test complete
+    tc.okay('complete')
+
 
 def run_all_tests():
     # run this test case first since it will do a basic 'ping'
